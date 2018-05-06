@@ -1,6 +1,6 @@
 .services {
     padding-top:47px;
-    min-height: 700px;;
+    min-height: 640px;;
     background-image: url('../img/screen2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,13 +57,36 @@
 
         }
         .text {
+            text-align: center;
             .col();
             .size(8);
             p {
+                text-align: left;
                 color: @wh;
                 font:16px Myriad_regular;
                 line-height: 1.5;
                 margin-bottom: 30px;
+            }
+            .btns {
+                padding-top:20px;
+                margin: 0 auto;
+                font-size: 0;
+                display: inline-block;
+
+                .btn1 {
+                    background: @blue;
+                    color:@wh;
+                    text-decoration: none;
+                    padding: 8px 15px;
+                    font-size: 32px;
+                }
+                .btn2 {
+                    background: #2800F2;
+                    color:@wh;
+                    text-decoration: none;
+                    padding: 8px 15px;
+                    font-size: 32px;
+                }
             }
         }
     }

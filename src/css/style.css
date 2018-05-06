@@ -280,7 +280,7 @@ nav .container .menu ul li a {
 
 .services {
   padding-top: 47px;
-  min-height: 700px;
+  min-height: 640px;
   background-image: url('../img/screen2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -351,6 +351,7 @@ nav .container .menu ul li a {
 }
 
 .services .container .text {
+  text-align: center;
   box-sizing: border-box;
   margin-left: 15px;
   margin-right: 15px;
@@ -359,10 +360,38 @@ nav .container .menu ul li a {
 }
 
 .services .container .text p {
+  text-align: left;
   color: #fff;
   font: 16px Myriad_regular;
   line-height: 1.5;
   margin-bottom: 30px;
+}
+
+.services .container .text .btns {
+  padding-top: 20px;
+  margin: 0 auto;
+  font-size: 0;
+  display: inline-block;
+}
+
+.services .container .text .btns .btn1 {
+  background: #00acf2;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 32px;
+}
+
+.services .container .text .btns .btn2 {
+  background: #2800F2;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 32px;
+}
+
+.map {
+  min-height: 500px;
 }
 
 @media screen and (max-width: 960px) {
