@@ -1,0 +1,41 @@
+.logistic {
+    padding-top: 68px;
+    padding-bottom: 58px;
+    .container {
+        .row-flex();
+        justify-content: space-between;
+        .text {
+            .col();
+            .size(5);
+            font-size: 75px;
+            line-height: 0.9;
+            text-transform: uppercase;
+            .name {
+                font-size: 144px;
+                line-height: 1.2;
+            }
+        }
+        .text_1 {
+            .col();
+            .size(6);
+            p {
+                font: 18px Myriad_regular;
+                line-height: 1.5;
+                &.indent {
+                    text-indent: 30px;
+                    margin-bottom: 35px;
+                }
+            }
+            .btn {
+                text-transform: uppercase;
+                color: #fff;
+                background: @blue;
+                max-width: 225px;
+                font-size: 32px;
+                text-align: center;
+                margin: 0 auto;
+                padding: 8px 0;
+            }
+        }
+    }
+}

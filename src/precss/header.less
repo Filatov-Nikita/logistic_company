@@ -1,0 +1,78 @@
+header {
+    .topLine {
+        .container {
+            box-sizing: border-box;
+            padding-top:5px;
+            padding-bottom: 4px;
+            .flex();
+            justify-content: space-between;
+            .button {
+                background: @blue;
+                color:@wh;
+                padding: 4px 18px;
+                font: 24px Myriad;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            .social {
+               align-self: flex-end;
+                img {
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+            }
+            .phone {
+                img {
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+                span {
+                    font: 24px Myriad;
+                    .small {
+                        font: 16px Myriad;
+                    }
+                }
+            }
+        }
+    }
+    .underline {
+        height: 1px;
+        background: #959595;
+    }
+}
+nav {
+    padding-top: 7px;
+    .container {
+        .flex();
+        justify-content: space-between;
+        .menu {
+            align-self: center;
+            text-transform: uppercase;
+            ul {
+                margin-top:34px;
+                li {
+                    &.active {
+                        &::after {
+                            content: "";
+                            display: block;
+                            width: 100%;
+                            background: @blue;
+                            height: 5px;
+                            margin-top: 34px;
+                            margin-left: -12px;
+                            padding-left:24px;
+                            margin-right: -12px;
+                        }
+                    }
+                    margin-right: 28px;
+                    display: inline-block;
+                    a {
+                        font: 18px Myriad;
+                        color:#000;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }   
+    }
+}
