@@ -597,12 +597,14 @@ nav .container .menu ul li a {
 
 .partners {
   background: #00acf2;
+  padding-bottom: 25px;
 }
 
 .partners .headline {
   padding-top: 65px;
   text-align: center;
   font-size: 75px;
+  margin-bottom: 25px;
   color: #fff;
 }
 
