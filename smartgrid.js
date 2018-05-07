@@ -12,19 +12,19 @@ var smartgrid = require('smart-grid');
                         fields:'20px'
                     },
                     md: {
-                           width:'850px',
+                           width:'768px', //ipad
                            fields: '20px'
                     }, 
                      sm: {
-                           width:'780px',
+                           width:'414px', //iphone 6/7/8 Plus
                            fields: '15px'
                     }, 
                      xs: {
-                           width:'560px',
+                           width:'375px', //iphone 6/7/8/X
                            fields: '10px'
                     }, 
                    xxs: {
-                        width:'360px',
+                        width:'320px', //iphone 5/se
                         fields:'10px'
                   }
                     

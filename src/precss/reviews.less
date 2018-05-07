@@ -1,0 +1,34 @@
+.reviews {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/auto.jpg");
+    .headline{
+        padding-top: 120px;
+        text-align: center;
+        font-size: 75px;
+        color: @wh;
+        .md-block({
+            padding-top: 60px;
+            font-size: 60px;
+        });
+    }
+    .items{
+        padding-top:30px;
+        display: flex;
+        .item{
+            .col();
+            .size(3);
+        }
+        
+    }
+    .switch{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        .item{
+            padding: 7px;
+        }
+    }
+}
+

@@ -1,7 +1,7 @@
 
 .placeholder() {
 
-&::-webkit-input-placeholder {color:#fff; text-indent: 12px; transition: color, 0.3s;font:700 18px roboto}
+&::-webkit-input-placeholder {color:#a1a1a1; text-align: center; transition: color, 0.3s}
 &::-moz-placeholder          {color:#fff; text-indent: 12px; transition: color, 0.3s;font:700 18px roboto}
 &:-moz-placeholder           {color:#fff; text-indent: 12px; transition: color, 0.3s;font:700 18px roboto}
 &:-ms-input-placeholder      {color:#fff; text-indent: 12px; transition: color, 0.3s;font:700 18px roboto}
@@ -9,7 +9,9 @@
 &:focus::-moz-placeholder          {color: transparent}
 &:focus:-moz-placeholder           {color: transparent}
 &:focus:-ms-input-placeholder      {color: transparent}
-
+}
+.placeholder_textarea() {
+    &::-webkit-input-placeholder {color:#a1a1a1; text-indent: 12px; padding: 10px;}
 }
 .flex() {
     display: flex;

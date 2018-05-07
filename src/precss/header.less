@@ -6,7 +6,15 @@ header {
             padding-bottom: 4px;
             .flex();
             justify-content: space-between;
+            .sm-block({
+                justify-content: center;
+            });
             .button {
+                .sm-block({
+                    padding: 10px 0;
+                    flex-grow: 1;
+                    text-align: center;
+                });
                 background: @blue;
                 color:@wh;
                 padding: 4px 18px;
@@ -15,21 +23,39 @@ header {
                 cursor: pointer;
             }
             .social {
-               align-self: flex-end;
+                .sm-block({
+                    order: -1;
+                    padding: 10px 0px;
+                });
+                align-self: flex-end;
                 img {
                     vertical-align: middle;
                     margin-right: 15px;
+                    .sm-block({
+                        padding: 0 5px;
+                    });
                 }
             }
             .phone {
+                .sm-block({
+                    order: -2;
+                    padding: 10px 0;
+                    font-size: 30px;
+                });
                 img {
                     vertical-align: middle;
                     margin-right: 10px;
                 }
                 span {
+                    .sm-block({
+                        font-size: 30px;
+                    });
                     font: 24px Myriad;
                     .small {
                         font: 16px Myriad;
+                        .sm-block({
+                            font-size: 20px;
+                        });
                     }
                 }
             }
@@ -45,10 +71,20 @@ nav {
     .container {
         .flex();
         justify-content: space-between;
+        .sm-block({
+            justify-content: center;
+        });
         .menu {
+            .col();
+            .size-sm(10);
             align-self: center;
             text-transform: uppercase;
+            
             ul {
+                .sm-block({
+                    text-align: center;
+                    padding-bottom: 30px;
+                });
                 margin-top:34px;
                 li {
                     &.active {
@@ -62,6 +98,9 @@ nav {
                             margin-left: -12px;
                             padding-left:24px;
                             margin-right: -12px;
+                            .sm-block({
+                                display: none;
+                            });
                         }
                     }
                     margin-right: 28px;

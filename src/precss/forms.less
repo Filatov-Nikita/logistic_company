@@ -1,0 +1,102 @@
+.connect{
+    background: #f3f3f3;
+     padding-top: 60px;
+     .sm-block({
+        padding-top: 40px;
+    });
+    .container {
+        .row-flex();
+        justify-content: space-between;
+        
+        .headline{
+            font-size: 45px;
+            text-align: center;
+            
+        }
+        .contanct{
+            .col();
+            .size(5);
+            .size-md(8);
+            .size-sm(10);
+            .size-xs(10);
+            .size-xxs(12);
+            .md-block({
+                margin: 0 auto;
+            });
+            .items{
+                .item{
+                    .sm-block({
+                        padding: 20px 0;
+                        font-size: 22px;
+                        text-align: center;
+                        img{
+                            margin: 0 auto;
+                            width:25%;
+                            display: block;
+                        }
+                    });
+                    padding: 10px 0;
+                    font-size: 32px;
+                    img{
+                        vertical-align: middle;
+                    }
+                    .txt{
+                        display: inline-block;
+                    }  
+                }
+            }
+        }
+        .forms{
+            .col();
+            .size(6);
+            .size-md(10);
+            .size-sm(12);
+            .size-xs(12);
+            .size-xxs(12);
+             .md-block({
+                margin: 0 auto;
+            });
+            .form{
+                padding-top: 35px;
+                p{
+                    font-size: 16px;
+                    font-family: Myriad_regular;
+                    text-align: center;
+                }
+                form{
+                    .flex();
+                }
+                input {
+                    .placeholder();
+                    flex-basis: 45%;
+                    flex-grow: 1;
+                    margin-bottom: 5px;
+                    height:50px;
+                    margin-left: 5px;
+                    outline: none;
+                    border:1px solid #a1a1a1;
+                }
+                textarea {
+                    flex-basis: 100%;
+                    resize: none;
+                    margin-left: 5px;
+                    height: 106px;
+                    outline: none;
+                    .placeholder_textarea();
+                }
+            }
+            .btn{
+                padding-top: 15px;
+                text-align: center;
+                a{
+                    background: @blue;
+                    color:@wh;
+                    text-decoration: none;
+                    padding: 8px 50px;
+                    font-size: 32px;
+                }
+                
+            }
+        }
+    }
+}

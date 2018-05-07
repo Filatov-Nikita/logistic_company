@@ -1,23 +1,51 @@
 .logistic {
     padding-top: 68px;
     padding-bottom: 58px;
+    .sm-block({
+        padding-top: 40px;
+    });
     .container {
         .row-flex();
         justify-content: space-between;
+        .md-block({
+            justify-content: center;
+        });
+        
         .text {
             .col();
             .size(5);
+            .size-md(10);
+            .size-sm(12);
+            .size-xs(12);
+            .size-xxs(12); 
+            .md-block({
+                text-align: center;
+            });
+            .sm-block({
+                font-size: 35px;
+            });
             font-size: 75px;
             line-height: 0.9;
             text-transform: uppercase;
             .name {
                 font-size: 144px;
                 line-height: 1.2;
+                .sm-block({
+                    font-size: 65px;
+                    
+                });
             }
         }
         .text_1 {
             .col();
             .size(6);
+            .size-md(10);
+            .size-sm(12);
+            .size-xs(12);
+            .size-xxs(12);
+            .sm-block({
+                padding-top: 30px;
+            });
             p {
                 font: 18px Myriad_regular;
                 line-height: 1.5;
