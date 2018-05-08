@@ -40,5 +40,20 @@ $(document).ready(function() {
       // instead of a settings object
     ]
     });
+
+    /*----------------------------*/   
+    var slider =  $('.services .text').slick({
+      arrows: false,
+      dots: false,
+      draggable: false,
+      fade: true
+    });
+    $('.full .item').on('click', function(event) {
+      $('.full .item').css('opacity', '0.7');
+      var data = $(this).data('index');
+      $(this).css('opacity', '1');
+      slider.slick('slickGoTo', data);
+    });
+
 });
           

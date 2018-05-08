@@ -336,6 +336,7 @@ nav .container .menu ul li a {
 }
 
 .services .container .service .full .item {
+  cursor: pointer;
   font-size: 0;
   background: #00acf2;
   color: #fff;
