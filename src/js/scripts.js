@@ -42,11 +42,13 @@ $(document).ready(function() {
     });
 
     /*----------------------------*/   
-    var slider =  $('.services .text').slick({
+    var slider =  $('.services .slider-container').slick({
       arrows: false,
       dots: false,
       draggable: false,
-      fade: true
+      fade: true,
+      cssEasy: 'step-end',
+      waitForAnimate: false
     });
     $('.full .item').on('click', function(event) {
       $('.full .item').css('opacity', '0.7');

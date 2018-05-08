@@ -337,6 +337,7 @@ nav .container .menu ul li a {
 
 .services .container .service .full .item {
   cursor: pointer;
+  transition: opacity, 0.3s;
   font-size: 0;
   background: #00acf2;
   color: #fff;
@@ -387,6 +388,10 @@ nav .container .menu ul li a {
   width: calc(66.66666666666667% - 30px);
 }
 
+.services .container .text .slider-container {
+  padding-bottom: 8px;
+}
+
 .services .container .text p {
   text-align: left;
   color: #fff;
@@ -397,7 +402,7 @@ nav .container .menu ul li a {
 
 .services .container .text .btns {
   padding-top: 20px;
-  margin: 0 auto;
+  margin: 0 auto 8px auto;
   font-size: 0;
   display: inline-block;
 }

@@ -33,6 +33,7 @@
                 
                 .item {
                     cursor: pointer;
+                    transition: opacity, 0.3s;
                     &:first-child {
                         opacity: 1;
                         padding:0 15px;
@@ -80,6 +81,9 @@
             .size-sm(12);
             .size-xs(12);
             .size-xxs(12);
+            .slider-container {
+                padding-bottom: 8px;
+            }
             p {
                 text-align: left;
                 color: @wh;
@@ -88,8 +92,9 @@
                 margin-bottom: 30px;
             }
             .btns {
+                //box-sizing: border-box;
                 padding-top:20px;
-                margin: 0 auto;
+                margin: 0 auto 8px auto;
                 font-size: 0;
                 display: inline-block;
                 .md-block({
