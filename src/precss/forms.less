@@ -1,3 +1,8 @@
+.txt {
+    p {
+        text-align: center;
+    }
+}
 .connect{
     background: #f3f3f3;
      padding-top: 60px;
@@ -35,10 +40,15 @@
                             display: block;
                         }
                     });
+                    display: flex;
+                    align-items: center;
                     padding: 10px 0;
                     font-size: 32px;
+                    span{
+                        font-size: 45px;
+                    }
                     img{
-                        vertical-align: middle;
+                        padding-right: 10px;
                     }
                     .txt{
                         display: inline-block;
@@ -58,14 +68,16 @@
             });
             .form{
                 padding-top: 35px;
-                p{
+                .txt{
                     font-size: 16px;
                     font-family: Myriad_regular;
-                    text-align: center;
                 }
+               
                 form{
                     .flex();
+                   
                 }
+
                 input {
                     .placeholder();
                     flex-basis: 45%;
@@ -75,6 +87,7 @@
                     margin-left: 5px;
                     outline: none;
                     border:1px solid #a1a1a1;
+                    padding-left:10px;
                 }
                 textarea {
                     flex-basis: 100%;
@@ -83,6 +96,7 @@
                     height: 106px;
                     outline: none;
                     .placeholder_textarea();
+                    padding: 10px 0 0 10px;
                 }
             }
             .btn{

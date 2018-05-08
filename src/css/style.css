@@ -237,7 +237,7 @@ nav .container .menu ul {
 }
 
 nav .container .menu ul li {
-  margin-right: 28px;
+  margin-left: 28px;
   display: inline-block;
 }
 
@@ -414,6 +414,7 @@ nav .container .menu ul li a {
 }
 
 .services .container .text .btns {
+  text-transform: uppercase;
   padding-top: 20px;
   margin: 0 auto 8px auto;
   font-size: 0;
@@ -541,6 +542,7 @@ nav .container .menu ul li a {
 }
 
 .place .text .btns {
+  text-transform: uppercase;
   padding-top: 20px;
   margin: 0 auto;
   font-size: 0;
@@ -635,6 +637,10 @@ nav .container .menu ul li a {
   margin: 0 auto;
 }
 
+.txt p {
+  text-align: center;
+}
+
 .connect {
   background: #f3f3f3;
   padding-top: 60px;
@@ -662,12 +668,18 @@ nav .container .menu ul li a {
 }
 
 .connect .container .contanct .items .item {
+  display: flex;
+  align-items: center;
   padding: 10px 0;
   font-size: 32px;
 }
 
+.connect .container .contanct .items .item span {
+  font-size: 45px;
+}
+
 .connect .container .contanct .items .item img {
-  vertical-align: middle;
+  padding-right: 10px;
 }
 
 .connect .container .contanct .items .item .txt {
@@ -686,10 +698,9 @@ nav .container .menu ul li a {
   padding-top: 35px;
 }
 
-.connect .container .forms .form p {
+.connect .container .forms .form .txt {
   font-size: 16px;
   font-family: Myriad_regular;
-  text-align: center;
 }
 
 .connect .container .forms .form form {
@@ -705,6 +716,7 @@ nav .container .menu ul li a {
   margin-left: 5px;
   outline: none;
   border: 1px solid #a1a1a1;
+  padding-left: 10px;
 }
 
 .connect .container .forms .form input::-webkit-input-placeholder {
@@ -756,6 +768,7 @@ nav .container .menu ul li a {
   margin-left: 5px;
   height: 106px;
   outline: none;
+  padding: 10px 0 0 10px;
 }
 
 .connect .container .forms .form textarea::-webkit-input-placeholder {

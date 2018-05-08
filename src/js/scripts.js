@@ -10,8 +10,8 @@ $(document).ready(function() {
     infinite: false,
     slidesToShow: 5,
     slidesToScroll: 5,
-    prevArrow: '<img src="../img/partners1.png" class = "arrows prev">',
-    nextArrow: '<img src="../img/partners7.png"  class = "arrows next">',
+    prevArrow: '<img src="img/partners1.png" class = "arrows prev">',
+    nextArrow: '<img src="img/partners7.png"  class = "arrows next">',
     responsive: [
       {
         breakpoint: 1024,
