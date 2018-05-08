@@ -53,7 +53,9 @@ $(document).ready(function() {
     $('.full .item').on('click', function(event) {
       $('.full .item').css('opacity', '0.7');
       var data = $(this).data('index');
+      var bg = $(this).data('bg');
       $(this).css('opacity', '1');
+      $('.services').css('background-image', 'url(\'' + bg + '\')');
       slider.slick('slickGoTo', data);
     });
 
