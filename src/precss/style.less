@@ -34,6 +34,20 @@ body {
     }
 }
 
+.arrows {
+    cursor: pointer;
+    &.prev {
+       position: absolute;
+       top:35%;
+       left: -3%;
+       //transform: translateY(-25%)
+    }
+    &.next {
+        position: absolute;
+        top:35%;
+        right: -3%;
+    }
+}
 
 @import "header.less";
 @import "logic_company.less";
